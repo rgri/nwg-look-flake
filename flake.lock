@@ -16,9 +16,26 @@
         "type": "github"
       }
     },
+    "nwg-look-git": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684887049,
+        "narHash": "sha256-qA6X1Rr1qEv2H86edNNMpxOggNamc5PdZXmc6cdz9oc=",
+        "owner": "nwg-piotr",
+        "repo": "nwg-look",
+        "rev": "c78dfef7f9a98893efdbb978ed7b616c822aeed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nwg-piotr",
+        "repo": "nwg-look",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nwg-look-git": "nwg-look-git"
       }
     }
   },
